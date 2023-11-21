@@ -14,4 +14,4 @@ Este repositório contém testes automatizados desenvolvidos com Cypress para si
 - [Adquirir um ingresso sem criar uma conta](cypress/e2e/1%20-%20tickets/sem-conta.md)
 
 ## Vídeos de resultado do test:
-- <a href="https://onelineplayer.com/player.html?url=https://github.com/GiuliaAmaral/cypress-teste-evento-formulario/raw/main/cypress/videos/sem-conta.cy.js.mp4&autoplay=false&autopause=false&muted=false&loop=true&poster=&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&quality=auto&playButton=true" target="_blank">Adquirir um ingresso sem criar uma conta</a>
+- [Adquirir um ingresso sem criar uma conta](https://onelineplayer.com/player.html?url=https://github.com/GiuliaAmaral/cypress-teste-evento-formulario/raw/main/cypress/videos/sem-conta.cy.js.mp4&autoplay=false&autopause=false&muted=false&loop=true&poster=&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&quality=auto&playButton=true)
