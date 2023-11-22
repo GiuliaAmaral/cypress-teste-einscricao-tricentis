@@ -1,13 +1,8 @@
-# Caso de Teste Automatizado: Adquirir um ingresso sem criar uma conta
+# Caso de Teste: Adquirir um ingresso sem criar uma conta
 
 ### Objetivo:
 
 O objetivo deste teste automatizado é verificar o processo de aquisição de ingressos para um evento quando o usuário continua a compra sem criar uma conta no sistema.
-
-### Pré-condições:
-
--   Acesso à página inicial do sistema de venda de ingressos.
--   Evento específico acessível para compra.
 
 ### Passos do Teste:
 
@@ -52,4 +47,8 @@ O objetivo deste teste automatizado é verificar o processo de aquisição de in
 -   O sistema deve permitir adicionar ingressos à compra.
 -   O sistema deve permitir prosseguir com a compra sem criar uma conta.
 -   Os campos do formulário devem ser validados corretamente.
--   A conclusão da compra deve resultar na exibição da mensagem de sucesso, na geração do QRCode e no acesso às informações de inscrição.
+-   A conclusão da compra deve resultar na exibição da mensagem de sucesso, na geração do QRCode, no acesso às informações de inscrição e gerar o comprovante em PDF.
+
+### Vídeo do teste
+
+- [Adquirir um ingresso sem criar uma conta](https://onelineplayer.com/player.html?url=https://github.com/GiuliaAmaral/cypress-teste-einscricao-tricentis/raw/main/cypress/videos/1-ingresso-evento/3-sem-conta.cy.js.mp4&autoplay=false&autopause=false&muted=false&loop=true&poster=&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&quality=auto&playButton=true)
