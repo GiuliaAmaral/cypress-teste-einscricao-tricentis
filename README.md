@@ -26,7 +26,7 @@ Clique sobre um teste para ver sua documentação detalhada
 - [Adquirir um ingresso sem criar uma conta](https://onelineplayer.com/player.html?url=https://github.com/GiuliaAmaral/cypress-teste-einscricao-tricentis/raw/main/cypress/videos/1-ingresso-evento/3-sem-conta.cy.js.mp4&autoplay=false&autopause=false&muted=false&loop=true&poster=&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&quality=auto&playButton=true)
 - [Adquirir uma cotação de seguro de veículo](https://onelineplayer.com/player.html?url=https://github.com/GiuliaAmaral/cypress-teste-einscricao-tricentis/raw/main/cypress/videos/2-seguro-tricentis/1-solicitao-seguro.cy.js.mp4&autoplay=false&autopause=false&muted=false&loop=true&poster=&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&quality=auto&playButton=true)
 
-# Report de melhorias encontradas
+# Report de falhas encontradas
 Enquanto realizava os testes automatizados nas telas da e-Inscrição, pude observar alguns
 pontos de melhoria e estou repassando para a equipe
 
