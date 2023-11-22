@@ -48,3 +48,9 @@ O objetivo deste teste automatizado é verificar o processo de aquisição de in
 -   A criação de conta deve ser realizada com sucesso.
 -   Os campos do formulário devem ser validados corretamente.
 -   A conclusão da compra deve resultar na exibição da mensagem de sucesso, na geração do QRCode, acesso às informações de inscrição e no arquivo PDF
+
+## Vídeo do teste:
+
+- [Adquirir um ingresso ao criar uma conta durante a compra](https://onelineplayer.com/player.html?url=https://github.com/GiuliaAmaral/cypress-teste-einscricao-tricentis/raw/main/cypress/videos/1-ingresso-evento/1-criar-conta.cy.js.mp4&autoplay=false&autopause=false&muted=false&loop=true&poster=&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&quality=auto&playButton=true)
+
+
