@@ -1,12 +1,9 @@
-# Caso de Teste Automatizado: Adquirir uma cotação de seguro de veículo
+# Caso de Teste: Adquirir uma cotação de seguro de veículo
 
 ### Objetivo:
 
 O objetivo deste teste automatizado é verificar o processo de obtenção de uma cotação de seguro de veículo preenchendo formulários e seguindo os passos no sistema.
 
-### Pré-condições:
-
--   Acesso à página inicial do sistema de seguro de veículo.
 
 ### Passos do Teste:
 
@@ -38,4 +35,9 @@ O objetivo deste teste automatizado é verificar o processo de obtenção de uma
 
 -   Os formulários devem ser preenchidos corretamente, permitindo avançar para a próxima etapa.
 -   O envio do formulário deve ser realizado sem erros.
--   A confirmação do envio do e-mail de cotação deve ser exibida na tela.
+-   A confirmação do envio do e-mail de cotação deve ser exibida na tela à partir da frase "Sending e-mail success!"
+
+## Vídeo do teste:
+
+- [Adquirir uma cotação de seguro de veículo](https://onelineplayer.com/player.html?url=https://github.com/GiuliaAmaral/cypress-teste-einscricao-tricentis/raw/main/cypress/videos/2-seguro-tricentis/1-solicitao-seguro.cy.js.mp4&autoplay=false&autopause=false&muted=false&loop=true&poster=&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&quality=auto&playButton=true)
+
