@@ -4,7 +4,7 @@
 describe('Adquirir um ingresso quando o usuário continua a compra sem uma conta', () => {
 
   it('Acessando a página inicial para adquirir o ticket do evento', () => {
-    cy.visit(`/?event_id=75524&apiUrl=https://www.e-inscricao.com&msApiUrl=https://safe2pay-paymentflow.einscricao.workers.dev/&LOG=false&receiptUrl=https://recibo.e-inscricao.tech&apiParticipantsUrl=https://ei-mysql-readonly.raise.workers.dev`)
+    cy.visit(`${Cypress.env("baseUrlEIscricao")}/?event_id=75524&apiUrl=https://www.e-inscricao.com&msApiUrl=https://safe2pay-paymentflow.einscricao.workers.dev/&LOG=false&receiptUrl=https://recibo.e-inscricao.tech&apiParticipantsUrl=https://ei-mysql-readonly.raise.workers.dev`)
   })
 
   it("Adicionando a quantidade de ingressos", () => {
@@ -59,7 +59,11 @@ describe('Adquirir um ingresso quando o usuário continua a compra sem uma conta
   context("Válidação da tela de pedido feito com sucesso", () => {
 
     it("Esperando a tela carregar", () => {
-      cy.wait(5000)
+      cy.wait(1000)
+      cy.get(".MuiCircularProgress-svg", { timeout: 120000 }).should('not.exist')
+      cy.wait(1000)
+      cy.get("h6", { timeout: 120000 }).contains("Aguarde enquanto processamos sua compra.").should('not.exist')
+      cy.wait(1000)
     })
 
     it("Verificando se o pedido foi bem sucedido", () => {

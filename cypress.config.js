@@ -1,8 +1,11 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  env: {
+    baseUrlTricentis: "https://sampleapp.tricentis.com/",
+    baseUrlEIscricao: "https://checkout.einscricao.app"
+  },
   e2e: {
-    baseUrl: "https://checkout.einscricao.app",
     video: true,
     videoCompression: true,
     testIsolation: false,

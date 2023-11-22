@@ -1,22 +1,22 @@
 {
-  "name": "cypress-teste-evento-formulario",
+  "name": "cypress-teste-einscricao-tricentis",
   "version": "1.0.0",
   "description": "Este repositório contém testes automatizados desenvolvidos com Cypress para simular a experiência de usuário ao realizar a inscrição em um evento e preencher um formulários de seguro",
   "main": "index.js",
   "scripts": {
-    "start": "cypress open --e2e --browser chrome",
+    "start": "cypress open --e2e --browser electron",
     "test": "cypress run --e2e --browser chrome"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GiuliaAmaral/cypress-teste-evento-formulario.git"
+    "url": "git+https://github.com/GiuliaAmaral/cypress-teste-einscricao-tricentis.git"
   },
   "author": "Giulia Amaral",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GiuliaAmaral/cypress-teste-evento-formulario/issues"
+    "url": "https://github.com/GiuliaAmaral/cypress-teste-einscricao-tricentis/issues"
   },
-  "homepage": "https://github.com/GiuliaAmaral/cypress-teste-evento-formulario#readme",
+  "homepage": "https://github.com/GiuliaAmaral/cypress-teste-einscricao-tricentis#readme",
   "devDependencies": {
     "cypress": "^13.5.1"
   }
