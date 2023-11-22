@@ -30,8 +30,7 @@ Clique sobre um teste para ver sua documentação detalhada
 Enquanto realizava os testes automatizados nas telas da e-Inscrição, pude observar alguns
 pontos de melhoria e estou repassando para a equipe
 
-- [Acessar arquivo PDF](https://drive.google.com/drive/u/0/folders/1UoDg-XJZke-9i22dMQ8bygW2IbQv0d7N)
-
+- [Acessar arquivo PDF](https://drive.google.com/file/d/1WGHUQhmfDYKT1AQyrXxiEdiMSZolsENa/view?usp=drive_link)
 
 # Resumo dos testes realizados
 
