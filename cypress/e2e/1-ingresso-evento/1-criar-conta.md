@@ -1,4 +1,4 @@
-# Caso de Teste Automatizado: Adquirir um ingresso ao criar uma conta durante a compra
+# Caso de Teste: Adquirir um ingresso ao criar uma conta durante a compra
 
 ### Objetivo:
 
