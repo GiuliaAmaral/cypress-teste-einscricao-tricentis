@@ -37,8 +37,11 @@ O objetivo deste teste automatizado é verificar o processo de aquisição de in
     -   Verificar se a mensagem "Pedido feito com sucesso!" é exibida.
     -   Verificar se o QRCode é gerado e exibido corretamente.
     -   Verificar se o sistema de avaliação é apresentado após o pedido ser concluído.
-    -   Verififcar se foi gerado o arquivo PDF do ingresso
-8.  Ver Minhas Inscrições
+8.  Salvar Comprovante
+    -   Verificar se o botão de salvar comprovante gera um arquivo PDF válido.
+    -   Verificar se é possível fazer o download do comprovante.
+    
+9.  Ver Minhas Inscrições
 
     -   Verificar se o botão "Ver Minhas Inscrições" está presente e funcional.
 
