@@ -1,13 +1,9 @@
-# Caso de Teste Automatizado: Adquirir um ingresso ao fazer login com conta existente
+# Caso de Teste: Adquirir um ingresso ao fazer login com conta existente
 
 ### Objetivo:
 
 O objetivo deste teste automatizado é verificar o processo de aquisição de ingressos para um evento quando o usuário possui uma conta e faz login para realizar a compra.
 
-### Pré-condições:
-
--   Acesso à página inicial do sistema de venda de ingressos.
--   Evento específico acessível para compra.
 
 ### Passos do Teste:
 
@@ -17,7 +13,7 @@ O objetivo deste teste automatizado é verificar o processo de aquisição de in
     -   Verificar se a página inicial é carregada corretamente.
 2.  Adicionar Quantidade de Ingressos
 
-    -   Localizar e clicar no botão para adicionar a quantidade de ingressos desejada.
+    -   Localizar e clicar no botão "+" para adicionar a quantidade de ingressos desejada.
     -   Verificar se a quantidade de ingressos é incrementada corretamente.
 3.  Continuar a Compra
 
@@ -38,6 +34,7 @@ O objetivo deste teste automatizado é verificar o processo de aquisição de in
     -   Aguardar a tela carregar após o envio do formulário.
     -   Verificar se a mensagem "Pedido feito com sucesso!" é exibida.
     -   Verificar se o QRCode é gerado e exibido corretamente.
+    -   Verificar se é gerado o PDF do ingresso.
     -   Verificar se o sistema de avaliação é apresentado após o pedido ser concluído.
 7.  Ver Minhas Inscrições
 
@@ -48,4 +45,8 @@ O objetivo deste teste automatizado é verificar o processo de aquisição de in
 
 -   O sistema deve permitir adicionar ingressos à compra.
 -   O login com a conta existente deve ser realizado com sucesso.
--   A conclusão da compra deve resultar na exibição da mensagem de sucesso, na geração do QRCode e no acesso às informações de inscrição.
+-   A conclusão da compra deve resultar na exibição da mensagem de sucesso, na geração do QRCode, acesso às informações de inscrição e no PDF do ingresso
+
+### Vídeo do teste:
+
+- [Adquirir um ingresso ao fazer login com conta existente](https://onelineplayer.com/player.html?url=https://github.com/GiuliaAmaral/cypress-teste-einscricao-tricentis/raw/main/cypress/videos/1-ingresso-evento/2-login-conta.cy.js.mp4&autoplay=false&autopause=false&muted=false&loop=true&poster=&time=true&progressBar=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&quality=auto&playButton=true)
